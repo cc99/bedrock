@@ -9,7 +9,7 @@ module.exports = function(config) {
 
         // list of files / patterns to load in the browser
         files: [
-            'media/js/libs/jquery-1.11.3.min.js',
+            'media/js/libs/jquery-3.2.1.min.js',
             'media/js/base/site.js',
             'media/js/base/mozilla-utils.js',
             'media/js/base/dnt-helper.js',
@@ -41,6 +41,7 @@ module.exports = function(config) {
             'media/js/firefox/new-ios-redirect-helper.js',
             'media/js/firefox/tracking-protection-tour.js',
             'media/js/firefox/whatsnew/whatsnew-zh-tw-49.js',
+            'media/js/ie8/mozilla-utils-ie8.js',
             'media/js/plugincheck/lib/utils.js',
             'media/js/plugincheck/lib/version-compare.js',
             'media/js/plugincheck/lib/plugincheck.js',
@@ -68,6 +69,7 @@ module.exports = function(config) {
             'tests/unit/spec/firefox/new-ios-redirect-helper.js',
             'tests/unit/spec/firefox/tracking-protection-tour.js',
             'tests/unit/spec/firefox/whatsnew/whatsnew-zh-tw-49.js',
+            'tests/unit/spec/ie8/mozilla-utils-ie8.js',
             'tests/unit/spec/plugincheck/lib/utils.js',
             'tests/unit/spec/plugincheck/lib/version-compare.js',
             'tests/unit/spec/plugincheck/lib/plugincheck.js',
